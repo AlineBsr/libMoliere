@@ -1,5 +1,5 @@
 body {
-  background-image: url("/img/bookshop.jpg");
+  background-image: url("./bookshop.jpg");
   background-size: center;
 }
 
