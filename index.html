@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link href="/css/style.css" rel="stylesheet" type="text/css" />
+  <title>Vous êtes étudiant ? Profitez d'une remise de 5% !</title>
+</head>
+
+<body>
+  <main class="content">
+    <div class="logo">
+      <img src="/img/Moliere_logo.png" alt="logo librairie Molière" title="Librairie Molière" />
+    </div>
+    <div class="intro pt-3">
+      <p>Vous cherchez où acheter vos livres scolaires ? <br/>Complétez le formulaire ci-dessous et obtenez 5% de réduction !</p>
+    </div>
+    <div class="form-container col-12">
+    <form class="form row p-2 ">
+      <div class="form-group col-6">
+        <label for="firstname">Prénom :</label>
+        <input type="text" class="form-control" id="firstname" aria-describedby="prénom" placeholder="Prénom"
+          required />
+      </div>
+      <div class="form-group col-6">
+        <label for="lastname">Nom :</label>
+        <input type="text" class="form-control" id="lastname" aria-describedby="nom" placeholder="Nom" required />
+      </div>
+      <div class="form-group">
+        <label for="email">Adresse Email :</label>
+        <input type="email" class="form-control" id="email" aria-describedby="email" placeholder="Adresse mail" required />
+      </div>
+      <div class="form-group">
+        <label for="tel">N° téléphone :</label>
+        <input type="number" class="form-control" id="tel" aria-describedby="téléphone" placeholder="0498424242" required />
+      </div>
+      <div class="form-group">
+        <label for="address">Adresse :</label>
+        <input type="text" class="form-control" id="address" aria-describedby="adresse" placeholder="68 Boulevard Joseph Tirou">
+      </div>
+      <div class="form-group">
+        <label for="address2">Complément :</label>
+        <input type="text" class="form-control" id="address2" aria-describedby="complément d'adresse" placeholder="Appartement, boite, bâtiment,...">
+      </div>
+      <div class="form-group">
+        <label for="cp">CP :</label>
+        <input type="number" class="form-control" id="cp" aria-describedby="code postal" placeholder="6000" required />
+      </div>
+      <div class="form-group">
+        <label for="address2">Ville :</label>
+        <input type="text" class="form-control" id="city" aria-describedby="ville" placeholder="Charleroi" required />
+      </div>
+      <button type="submit" class="btn btn-primary m-2 col-3">Valider</button>
+    </form>
+    </div>
+  </main>
+</body>
+</html>

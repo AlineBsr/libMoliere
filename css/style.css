@@ -1,0 +1,43 @@
+body {
+  background-image: url("/img/bookshop.jpg");
+  background-size: center;
+}
+
+label {
+  color: #1d163f;
+}
+
+.intro {
+  background-color: #1d163f;
+  color: white;
+  text-align: center;
+  margin-bottom: 0;
+  font-weight: bold;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  margin: 2em;
+  background-color: #ffffffbe;
+}
+
+.form-container {
+  display: flex;
+  justify-content: center;
+}
+
+.btn-primary {
+  background-color: #009f7b;
+  border-color: #009f7b;
+}
+
+.logo {
+  text-align: center;
+}
+.logo img {
+  width: 10rem;
+  padding: 10px;
+  margin: 10px;
+  align: center;
+}
